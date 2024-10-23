@@ -58,18 +58,20 @@ html, body {
     100% { border-right-color: transparent; } 
 }
 
-button {
+a {
     background-color: white;
     color:black;
+    text-decoration: none;
     padding:15px;
     border:none;
     border-radius: 5px;
     font-size:15px;
+    font-weight: 500;
     margin:2px;
     transition-duration: .2s;
 }
 
-button:hover {
+a:hover {
     background-color: gray;
     color:white;
 }
