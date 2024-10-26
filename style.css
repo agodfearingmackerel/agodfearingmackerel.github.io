@@ -17,7 +17,7 @@ h3 {
 }
 
 .content {
-    margin-top: 30vh;
+    margin-top: 25vh;
     width: 50vw;
     background-color: black;
     color:White;
@@ -78,4 +78,29 @@ a {
 a:hover {
     background-color: gray;
     color:white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    html, body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    html, body{
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html, body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    html, body{
+        background-color: white;
+    }
 }
