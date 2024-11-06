@@ -4,7 +4,10 @@ html, body {
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
+}
+
+.container {
+    display:grid;
+    background-color: red;
 }
